@@ -33,7 +33,9 @@ public class JTabbedPaneFrame extends JFrame
     panel3.setLayout(new BorderLayout());
     panel3.add(label3);
     panel3.add(new JButton("North"), BorderLayout.NORTH);
+    panel3.add(new JButton("East"), BorderLayout.EAST);
     panel3.add(new JButton("South"), BorderLayout.SOUTH);
+    panel3.add(new JButton("West"), BorderLayout.WEST);
     tabPane.addTab("Tab Three", null, panel3, "ThirdPanel");
 
     // keep this at the bottom
